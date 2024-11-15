@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- Importing Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ecf0f1;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        li {
+            background: linear-gradient(45deg, #6a82fb, #fc5c7d); /* Gradient background */
+            color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2 );
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.3s ease;
+        }
+
+        li:hover {
+            transform: scale(1.02); /* Slightly enlarge the item on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .task {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        input[type="checkbox"] {
+            appearance: none;
+            background-color: #ddd;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: background 0.3s ease;
+        }
+
+        input[type="checkbox"]:checked {
+            background-color: #2ecc71; /* Green when checked */
+            border-color: #27ae60;
+        }
+
+        .delete {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .delete:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <h1>My To-Do List</h1>
+    <ul>
+        <li>
+            <span class="task">
+                <input type="checkbox">
+                Finish the HTML project
+            </span>
+            <button class="delete">Delete</button>
+        </li>
+        <li>
+            <span class="task">
+                <input type="checkbox">
+                Write a blog post
+            </span>
+            <button class="delete">Delete</button>
+        </li>
+        <li>
+            <span class="task">
+                <input type="checkbox">
+                Go grocery shopping
+            </span>
+            <button class="delete">Delete</button>
+        </li>
+        <li>
+            <span class="task">
+                <input type="checkbox">
+                Read a book
+            </span>
+            <button class="delete">Delete</button>
+        </li>
+    </ul>
+</body>
+</html>

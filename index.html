@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Om's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Om's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <img src="om.jpg" alt="Profile Picture of Om" class="profile-img">
+    <div class="about-text">
+      <p>Hi, I'm Om! I'm a passionate developer skilled in C, C++, Java, HTML, Python, and cybersecurity. I'm always eager to learn new technologies and take on challenging projects to expand my skill set.</p>
+      <p>With a focus on cybersecurity and web development, I have experience in creating secure, dynamic websites and conducting vulnerability assessments. I look forward to contributing to innovative projects that make a difference.</p>
+    </div>
+  </div>
+</section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <h3>C</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;">80%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>C++</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 75%;">75%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>Java</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 70%;">70%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 85%;">85%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>Python</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;">80%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <h3>Cybersecurity</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 75%;">75%</div>
+      </div>
+      <h3>DSA</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 70%;">70%</div>
+      </div>
+    </div>
+  </section>
+
+<!-- Blog Section -->
+<section id="blog">
+  <h2>Latest Posts</h2>
+  
+  <div class="blog-post">
+    <h3>How I Created My Portfolio Website</h3>
+    <p>I built this portfolio website using HTML, CSS, and JavaScript to showcase my skills and projects. This site is designed with a responsive layout, easy navigation, and a dark theme to enhance readability.</p>
+    <a href="#">Read more</a>
+  </div>
+  
+  <div class="blog-post">
+    <h3>Building an E-Commerce Website</h3>
+    <p>In this project, I developed a fully functional e-commerce website using HTML, CSS, JavaScript, and a backend server in Node.js. The site features a product catalog, shopping cart, and secure checkout system.</p>
+    <a href="#">Read more</a>
+  </div>
+  
+  <div class="blog-post">
+    <h3>Implementing Text Encryption</h3>
+    <p>This project involved creating a text encryption tool that secures sensitive information. I implemented basic encryption algorithms using Python to ensure data privacy and integrity.</p>
+    <a href="#">Read more</a>
+  </div>
+  
+  <div class="blog-post">
+    <h3>Password Analysis for Security</h3>
+    <p>I developed a password analysis tool to evaluate password strength and provide recommendations for creating stronger, more secure passwords. This project uses Python and basic cryptography principles.</p>
+    <a href="#">Read more</a>
+  </div>
+
+</section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>My Projects</h2>
+    <div id="filter-buttons">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="web-dev">Web Development</button>
+      <button class="filter-btn" data-category="cybersecurity">Cybersecurity</button>
+    </div>
+    <div class="project-list">
+      <div class="project-item" data-category="web-dev">Portfolio Website</div>
+      <div class="project-item" data-category="web-dev">
+        <a href="e-cart.html" target="_blank">E-Commerce Website</a>
+      </div>
+      <div class="project-item" data-category="cybersecurity">Text Encryption</div>
+      <div class="project-item" data-category="cybersecurity">Password Analysis</div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2024 Om. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="https://github.com/Samm2005"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/Om6"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <!-- Include your JavaScript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>

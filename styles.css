@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #00BFFF; /* Bright blue for headings */
+}
+
+/* Header Styles */
+header {
+  background-color: #1e1e1e; /* Darker header */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00BFFF; /* Change color on hover */
+}
+
+/* About Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  /* Styles for the About section */
+#about h2 {
+  font-size: 2em; /* Increase the heading size */
+}
+
+#about .about-text p {
+  font-size: 1.2em; /* Increase the paragraph font size */
+  line-height: 1.6; /* Optional: improve readability */
+}
+
+  gap: 20px; /* Space between image and text */
+}
+
+.profile-img {
+  width: 150px; /* Adjust width as needed */
+  height: auto;
+  border-radius: 50%; /* Makes the image circular */
+}
+
+.about-text {
+  flex: 1; /* Makes the text container take up remaining space */
+}
+
+/* Skills Section */
+#skills {
+  padding: 20px;
+  text-align: center;
+}
+
+.skill {
+  margin: 20px 0;
+}
+
+.progress-bar {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.progress {
+  background-color: #00BFFF;
+  height: 100%;
+  width: 0;
+  animation: progress-animation 1s forwards;
+}
+
+@keyframes progress-animation {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+/* Blog Section */
+#blog {
+  padding: 20px;
+  text-align: center;
+}
+
+.blog-post {
+  margin: 20px;
+  padding: 15px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+}
+
+/* Portfolio Section */
+#portfolio {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-item {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
