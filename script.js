@@ -1,4 +1,3 @@
-// scripts.js
 document.addEventListener('DOMContentLoaded', function() {
   // Smooth scrolling for navigation links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -9,17 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
-
-  // Show more projects button
-  const showMoreBtn = document.getElementById('show-more');
-  const moreProjects = document.getElementById('more-projects');
-  
-  if (showMoreBtn && moreProjects) {
-    showMoreBtn.addEventListener('click', function() {
-      moreProjects.classList.toggle('hidden');
-      this.textContent = moreProjects.classList.contains('hidden') ? 'Show More Projects' : 'Show Less Projects';
-    });
-  }
 
   // Form submission
   const contactForm = document.getElementById('contact-form');
