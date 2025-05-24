@@ -1,141 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Om's Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to Om's Portfolio</h1>
+    <div class="header-content">
+      <h1>Om Singh</h1>
+      <p>Full Stack Developer & AI Enthusiast</p>
+    </div>
     <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+      <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+      <a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
     </nav>
   </header>
-  
-<section id="about">
-  <h2>About Me</h2>
-  <div class="about-content">
-    <img src="om.jpg" alt="Profile Picture of Om" class="profile-img">
-    <div class="about-text">
-      <p>Hi, I'm Om! I'm a passionate developer skilled in C, C++, Java, HTML, Python, and cybersecurity. I'm always eager to learn new technologies and take on challenging projects to expand my skill set.</p>
-      <p>With a focus on cybersecurity and web development, I have experience in creating secure, dynamic websites and conducting vulnerability assessments. I look forward to contributing to innovative projects that make a difference.</p>
-    </div>
-  </div>
-</section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skill">
-      <h3>C</h3>
-      <div class="progress-bar">
-        <div class="progress" style="width: 80%;">80%</div>
+  <main>
+    <section id="about">
+      <img id="profile-pic" src="om.jpg" alt="Om's Profile Picture" />
+      <h2>About Me</h2>
+      <p>
+        Student at Lovely Professional University | Aspiring Entrepreneur | C++ & DSA Enthusiast | 
+        Full Stack Developer | Skilled in Python, PHP, C++, R & Linux | Exploring Cybersecurity | 
+        Practicing LeetCode in Python | Currently doing Data Structures & Algorithms (DSA) in Python.
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/om051105" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/om6/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:singhsid2005@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
-    </div>
-    <div class="skill">
-      <h3>C++</h3>
-      <div class="progress-bar">
-        <div class="progress" style="width: 75%;">75%</div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>Java</h3>
-      <div class="progress-bar">
-        <div class="progress" style="width: 70%;">70%</div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>HTML</h3>
-      <div class="progress-bar">
-        <div class="progress" style="width: 85%;">85%</div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>Python</h3>
-      <div class="progress-bar">
-        <div class="progress" style="width: 80%;">80%</div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>Cybersecurity</h3>
-      <div class="progress-bar">
-        <div class="progress" style="width: 75%;">75%</div>
-      </div>
-      <h3>DSA</h3>
-      <div class="progress-bar">
-        <div class="progress" style="width: 70%;">70%</div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-<!-- Blog Section -->
-<section id="blog">
-  <h2>Latest Posts</h2>
-  
-  <div class="blog-post">
-    <h3>How I Created My Portfolio Website</h3>
-    <p>I built this portfolio website using HTML, CSS, and JavaScript to showcase my skills and projects. This site is designed with a responsive layout, easy navigation, and a dark theme to enhance readability.</p>
-    <a href="#">Read more</a>
-  </div>
-  
-  <div class="blog-post">
-    <h3>Building an E-Commerce Website</h3>
-    <p>In this project, I developed a fully functional e-commerce website using HTML, CSS, JavaScript, and a backend server in Node.js. The site features a product catalog, shopping cart, and secure checkout system.</p>
-    <a href="#">Read more</a>
-  </div>
-  
-  <div class="blog-post">
-    <h3>Implementing Text Encryption</h3>
-    <p>This project involved creating a text encryption tool that secures sensitive information. I implemented basic encryption algorithms using Python to ensure data privacy and integrity.</p>
-    <a href="#">Read more</a>
-  </div>
-  
-  <div class="blog-post">
-    <h3>Password Analysis for Security</h3>
-    <p>I developed a password analysis tool to evaluate password strength and provide recommendations for creating stronger, more secure passwords. This project uses Python and basic cryptography principles.</p>
-    <a href="#">Read more</a>
-  </div>
-
-</section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <h2>My Projects</h2>
-    <div id="filter-buttons">
-      <button class="filter-btn" data-category="all">All</button>
-      <button class="filter-btn" data-category="web-dev">Web Development</button>
-      <button class="filter-btn" data-category="cybersecurity">Cybersecurity</button>
-    </div>
-    <div class="project-list">
-      <div class="project-item" data-category="web-dev">Portfolio Website</div>
-      <div class="project-item" data-category="web-dev">
-        <a href="e-cart.html" target="_blank">E-Commerce Website</a>
+    <section id="skills">
+      <h2>Skills & Proficiency</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <span>Python <span class="skill-percent">80%</span></span>
+          <div class="skill-bar"><div style="width: 80%"></div></div>
+        </div>
+        <div class="skill">
+          <span>C++ <span class="skill-percent">90%</span></span>
+          <div class="skill-bar"><div style="width: 90%"></div></div>
+        </div>
+        <div class="skill">
+          <span>PHP <span class="skill-percent">70%</span></span>
+          <div class="skill-bar"><div style="width: 70%"></div></div>
+        </div>
+        <div class="skill">
+          <span>R <span class="skill-percent">65%</span></span>
+          <div class="skill-bar"><div style="width: 65%"></div></div>
+        </div>
+        <div class="skill">
+          <span>Linux <span class="skill-percent">60%</span></span>
+          <div class="skill-bar"><div style="width: 60%"></div></div>
+        </div>
+        <div class="skill">
+          <span>Frontend Development <span class="skill-percent">75%</span></span>
+          <div class="skill-bar"><div style="width: 75%"></div></div>
+        </div>
+        <div class="skill">
+          <span>Data Structures & Algorithms <span class="skill-percent">70%</span></span>
+          <div class="skill-bar"><div style="width: 70%"></div></div>
+        </div>
+        <div class="skill">
+          <span>Cybersecurity Basics <span class="skill-percent">50%</span></span>
+          <div class="skill-bar"><div style="width: 50%"></div></div>
+        </div>
       </div>
-      <div class="project-item" data-category="cybersecurity">Text Encryption</div>
-      <div class="project-item" data-category="cybersecurity">Password Analysis</div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer Section -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Detection-Ai</h3>
+          <p>AI-powered detection system</p>
+          <a href="https://github.com/om051105/Detection-Ai" target="_blank" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>AI-Powered Resume Screener</h3>
+          <p>Automated resume screening using AI</p>
+          <a href="https://github.com/om051105/AI-Powered-Resume-Screener" target="_blank" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Cricket Win Predictor</h3>
+          <p>Predicts cricket match outcomes</p>
+          <a href="https://github.com/om051105/Cricket-Win-Predictor" target="_blank" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Digital Art Gallery</h3>
+          <p>Online platform for digital art</p>
+          <a href="https://github.com/om051105/Digital-Art-Gallery" target="_blank" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>To-do List</h3>
+          <p>Task management application</p>
+          <a href="https://github.com/om051105/To-do-List" target="_blank" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Resume Builder</h3>
+          <p>Tool for creating professional resumes</p>
+          <a href="https://github.com/om051105/Resume-Builder" target="_blank" class="project-link">View Project</a>
+        </div>
+      </div>
+      <button id="show-more" class="btn">Show More Projects</button>
+      <div id="more-projects" class="hidden">
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>AI-Powered Grant Writer</h3>
+            <a href="https://github.com/om051105/AI-Powered-Grant" target="_blank" class="project-link">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Song Detector</h3>
+            <a href="https://github.com/om051105/song-detector" target="_blank" class="project-link">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Learning C++</h3>
+            <a href="https://github.com/om051105/learning-C--" target="_blank" class="project-link">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Portfolio</h3>
+            <a href="https://github.com/om051105/portfolio" target="_blank" class="project-link">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Desktop Tutorial</h3>
+            <a href="https://github.com/om051105/desktop-tutorial" target="_blank" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <h3>IBM Cybersecurity Tools & Cyberattacks</h3>
+          <p>Coursera</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/RE9TUFRP8F4P" target="_blank" class="btn">Verify</a>
+        </div>
+        <div class="cert-card">
+          <h3>Google IT Support Professional</h3>
+          <p>Coursera</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/WQSL435AJT3U" target="_blank" class="btn">Verify</a>
+        </div>
+        <div class="cert-card">
+          <h3>Python for Everybody</h3>
+          <p>Coursera</p>
+          <a href="https://www.coursera.org/account/accomplishments/verify/VR8SLAG2G4WF" target="_blank" class="btn">Verify</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> singhsid2005@gmail.com</p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/om6/" target="_blank">linkedin.com/in/om6</a></p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/om051105" target="_blank">github.com/om051105</a></p>
+      </div>
+    </section>
+  </main>
+
   <footer>
-    <p>© 2024 Om. All Rights Reserved.</p>
-    <div class="social-icons">
-      <a href="https://github.com/Samm2005"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/Om6"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
+    <p>&copy; 2025 Om Singh. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
     </div>
   </footer>
 
-  <!-- Include your JavaScript file -->
-  <script src="script.js"></script>
-
+  <script src="scripts.js"></script>
 </body>
 </html>
