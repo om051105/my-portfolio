@@ -27,18 +27,19 @@
       <img id="profile-pic" src="om.jpg" alt="Om's Profile Picture" />
       <h2>About Me</h2>
       <p>
-        I'm a passionate Full Stack Developer and Data Science enthusiast currently pursuing my degree at Lovely Professional University. 
-        With expertise in both web development and data analysis, I build intelligent applications that combine robust backends with 
-        data-driven insights.
+        I'm a passionate Full Stack Developer and Data Scientist with expertise in building scalable web applications
+        and extracting insights from complex datasets. My work combines robust backend systems with advanced
+        data analysis to create intelligent solutions.
       </p>
       <p>
-        My technical toolkit includes Node.js for backend development, React for frontend, and Python for data science and machine learning.
-        I specialize in creating full-stack applications with integrated data analytics capabilities.
+        <strong>Backend Development:</strong> I specialize in Node.js, Express, and database design, creating
+        high-performance APIs and microservices. My experience includes building RESTful and GraphQL APIs,
+        implementing authentication systems, and optimizing database queries.
       </p>
       <p>
-        As a data scientist, I'm proficient in statistical analysis, predictive modeling, and data visualization using libraries like Pandas,
-        NumPy, and Matplotlib. I enjoy solving complex problems by extracting meaningful patterns from data and implementing machine learning
-        solutions.
+        <strong>Data Science:</strong> I leverage Python's data stack (Pandas, NumPy, Scikit-learn) for data
+        cleaning, analysis, and machine learning. I'm particularly interested in predictive modeling and
+        natural language processing applications.
       </p>
       <div class="social-links">
         <a href="https://github.com/om051105" target="_blank"><i class="fab fa-github"></i></a>
@@ -48,27 +49,45 @@
     </section>
 
     <section id="skills">
-      <h2>Skills & Proficiency</h2>
-      <div class="skills-container">
-        <div class="skill">
-          <span>Python (Data Science) <span class="skill-percent">90%</span></span>
-          <div class="skill-bar"><div style="width: 90%"></div></div>
+      <h2>Technical Skills</h2>
+      <div class="skills-categories">
+        <div class="category">
+          <h3><i class="fas fa-server"></i> Backend Development</h3>
+          <ul>
+            <li>Node.js & Express</li>
+            <li>RESTful API Design</li>
+            <li>GraphQL</li>
+            <li>MongoDB & Mongoose</li>
+            <li>PostgreSQL</li>
+            <li>Authentication (JWT, OAuth)</li>
+            <li>Docker & Kubernetes</li>
+          </ul>
         </div>
-        <div class="skill">
-          <span>Node.js & Express <span class="skill-percent">85%</span></span>
-          <div class="skill-bar"><div style="width: 85%"></div></div>
+        
+        <div class="category">
+          <h3><i class="fas fa-chart-line"></i> Data Science</h3>
+          <ul>
+            <li>Python (Pandas, NumPy)</li>
+            <li>Machine Learning (Scikit-learn)</li>
+            <li>Deep Learning (TensorFlow)</li>
+            <li>Data Visualization (Matplotlib, Seaborn)</li>
+            <li>Natural Language Processing</li>
+            <li>Big Data (PySpark)</li>
+            <li>Statistical Analysis</li>
+          </ul>
         </div>
-        <div class="skill">
-          <span>Machine Learning <span class="skill-percent">80%</span></span>
-          <div class="skill-bar"><div style="width: 80%"></div></div>
-        </div>
-        <div class="skill">
-          <span>React <span class="skill-percent">75%</span></span>
-          <div class="skill-bar"><div style="width: 75%"></div></div>
-        </div>
-        <div class="skill">
-          <span>Data Visualization <span class="skill-percent">85%</span></span>
-          <div class="skill-bar"><div style="width: 85%"></div></div>
+        
+        <div class="category">
+          <h3><i class="fas fa-laptop-code"></i> Frontend & Other</h3>
+          <ul>
+            <li>React.js</li>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Git & GitHub</li>
+            <li>Linux/Unix</li>
+            <li>AWS & GCP</li>
+            <li>CI/CD Pipelines</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -76,26 +95,54 @@
     <section id="projects">
       <h2>Featured Projects</h2>
       <div class="projects-grid">
+        <!-- Backend Projects -->
         <div class="project-card">
-          <h3>Predictive Analytics Dashboard</h3>
-          <p>Interactive dashboard for business predictions with machine learning backend</p>
+          <h3>E-commerce API Service</h3>
+          <p>Scalable backend for e-commerce platform with payment integration, JWT authentication, and Redis caching</p>
           <div class="tech-stack">
-            <span>Python</span>
             <span>Node.js</span>
-            <span>React</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>Redis</span>
           </div>
-          <a href="#" target="_blank" class="project-link">View Project</a>
+          <a href="#" class="project-link">View Project</a>
         </div>
         
         <div class="project-card">
-          <h3>Customer Segmentation Model</h3>
-          <p>Unsupervised learning model for customer clustering and analysis</p>
+          <h3>Real-time Analytics Dashboard</h3>
+          <p>Dashboard processing streaming data with WebSocket connections and real-time visualizations</p>
+          <div class="tech-stack">
+            <span>Node.js</span>
+            <span>Socket.io</span>
+            <span>D3.js</span>
+            <span>Kafka</span>
+          </div>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        
+        <!-- Data Science Projects -->
+        <div class="project-card">
+          <h3>Predictive Maintenance System</h3>
+          <p>Machine learning model predicting equipment failures with 92% accuracy</p>
           <div class="tech-stack">
             <span>Python</span>
             <span>Scikit-learn</span>
-            <span>Tableau</span>
+            <span>Flask</span>
+            <span>Docker</span>
           </div>
-          <a href="#" target="_blank" class="project-link">View Project</a>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        
+        <div class="project-card">
+          <h3>Customer Sentiment Analysis</h3>
+          <p>NLP pipeline analyzing customer reviews with sentiment classification</p>
+          <div class="tech-stack">
+            <span>Python</span>
+            <span>NLTK</span>
+            <span>TensorFlow</span>
+            <span>FastAPI</span>
+          </div>
+          <a href="#" class="project-link">View Project</a>
         </div>
       </div>
     </section>
@@ -105,35 +152,49 @@
       <div class="certifications-grid">
         <div class="cert-card">
           <h3>IBM Data Science Professional</h3>
-          <p>Coursera</p>
-          <a href="#" target="_blank" class="btn">Verify</a>
+          <p>Coursera | 2023</p>
+          <p>Covered data analysis, visualization, and machine learning using Python</p>
+          <a href="#" class="btn">View Certificate</a>
         </div>
+        
         <div class="cert-card">
-          <h3>Python for Data Science</h3>
-          <p>University of Michigan</p>
-          <a href="#" target="_blank" class="btn">Verify</a>
+          <h3>Node.js Developer Certification</h3>
+          <p>Udemy | 2023</p>
+          <p>Advanced backend development with Node.js and Express</p>
+          <a href="#" class="btn">View Certificate</a>
+        </div>
+        
+        <div class="cert-card">
+          <h3>Machine Learning Specialization</h3>
+          <p>Stanford University | 2023</p>
+          <p>Fundamentals of supervised and unsupervised learning</p>
+          <a href="#" class="btn">View Certificate</a>
         </div>
       </div>
     </section>
 
     <section id="contact">
-      <h2>Get In Touch</h2>
-      <form id="contact-form">
-        <div class="form-group">
-          <input type="text" id="name" placeholder="Your Name" required>
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <h3>Let's connect!</h3>
+          <p><i class="fas fa-envelope"></i> singhsid2005@gmail.com</p>
+          <p><i class="fab fa-linkedin"></i> linkedin.com/in/om6</p>
+          <p><i class="fab fa-github"></i> github.com/om051105</p>
+          <p><i class="fas fa-map-marker-alt"></i> Punjab, India</p>
         </div>
-        <div class="form-group">
-          <input type="email" id="email" placeholder="Your Email" required>
-        </div>
-        <div class="form-group">
-          <textarea id="message" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-      <div class="contact-info">
-        <p><i class="fas fa-envelope"></i> singhsid2005@gmail.com</p>
-        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/om6/" target="_blank">linkedin.com/in/om6</a></p>
-        <p><i class="fab fa-github"></i> <a href="https://github.com/om051105" target="_blank">github.com/om051105</a></p>
       </div>
     </section>
   </main>
@@ -144,7 +205,6 @@
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
       <a href="#contact">Contact</a>
     </div>
   </footer>
