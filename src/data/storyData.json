@@ -1,17 +1,22 @@
 [
   {
     "year": "2023",
-    "title": "Started Web Development",
-    "desc": "Learned HTML, CSS, and basic JavaScript. Began building UI/UX."
+    "title": "Foundations — Web & Systems",
+    "desc": "Mastered full-stack fundamentals — HTML, CSS, JavaScript, React, and Node.js. Shipped first production-ready web applications and established core engineering discipline."
   },
   {
     "year": "2024",
-    "title": "Entered AI",
-    "desc": "Started diving into machine learning projects and expanding my toolkit."
+    "title": "Deep Learning & Computer Vision",
+    "desc": "Engineered production-grade AI systems: Tomato Leaf Disease Detection (MobileNetV2, 94%+ accuracy) and Real-Time Concentration Tracker using facial landmark AI. Entered the ML research space in earnest."
+  },
+  {
+    "year": "2024–25",
+    "title": "Startup — KabadiVaala (Ongoing)",
+    "desc": "Contributing as an AI/ML Engineer at KabadiVaala, a sustainability-focused startup revolutionizing the scrap and recycling industry in India. Built intelligent pricing models and data pipelines for real-time waste classification and valuation."
   },
   {
     "year": "2025",
-    "title": "Built AI Systems",
-    "desc": "Engineered critical solutions like Detection AI and Resume Screener."
+    "title": "Reinforcement Learning & Open Source",
+    "desc": "Built AlphaForge — an autonomous Forex RL trading system using PPO with a custom-built Gymnasium environment. Actively contributing to open-source ML tooling and computer vision projects on GitHub."
   }
 ]
