@@ -21,7 +21,7 @@ export default function Contact() {
 
   const contacts = [
     { label: 'Email',     sub: 'singhsid2005@gmail.com', href: 'mailto:singhsid2005@gmail.com',       icon: '✉' },
-    { label: 'LinkedIn',  sub: 'Om Singh',                href: 'https://linkedin.com/in/om051105',    icon: '⟶' },
+    { label: 'LinkedIn',  sub: 'Om',                     href: 'https://linkedin.com/in/om051105',    icon: '⟶' },
     { label: 'GitHub',    sub: 'github.com/om051105',    href: 'https://github.com/om051105',          icon: '◈' },
     { label: 'Phone',     sub: '+91 9456196440',         href: 'tel:+919456196440',                    icon: '◎' },
     { label: 'WhatsApp',  sub: '+91 9456196440',         href: 'https://wa.me/919456196440',           icon: '◎' },
@@ -108,7 +108,7 @@ export default function Contact() {
         {/* Footer */}
         <div className="mt-20 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-start gap-4">
           <span className="text-[10px] uppercase tracking-widest text-[#4A5070]">
-            © {new Date().getFullYear()} Om Singh — Machine Learning Engineer
+            © {new Date().getFullYear()} Om — Machine Learning Engineer
           </span>
           <span className="text-[10px] uppercase tracking-widest flex items-center gap-2" style={{ color: 'var(--accent)' }}>
             <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] inline-block animate-pulse" />
